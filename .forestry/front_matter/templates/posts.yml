@@ -30,5 +30,3 @@ fields:
     schema:
       format: markdown
   label: Diescription
-pages:
-- posts/post-test.md
