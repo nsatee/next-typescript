@@ -30,5 +30,3 @@ fields:
     schema:
       format: markdown
   label: Diescription
-pages:
-- hello-there.md
