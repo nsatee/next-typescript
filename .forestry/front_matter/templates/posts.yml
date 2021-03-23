@@ -46,3 +46,21 @@ fields:
     label: description
   label: field group
   description: field group, dah!
+- name: group_repeat
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: desc
+    type: text
+    config:
+      required: false
+    label: desc
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Group repeat
