@@ -4,6 +4,9 @@ tags:
 title: Post test
 published_date: 2020-12-15T08:00:00.000+00:00
 diescription: it's a wonderful world
+field_group:
+  title: Hello
+  description: Woohoo
 
 ---
 # Hello
