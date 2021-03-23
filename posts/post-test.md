@@ -8,6 +8,8 @@ field_group:
   title: Hello
   description: Woohoo
 group_repeat:
+- title: Woohooo
+  desc: cool stuff here
 - title: Yppp
   desc: what'sup
 
