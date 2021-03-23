@@ -1,6 +1,0 @@
----
-hero:
-- template: homepage
-  hero: []
-
----
