@@ -7,6 +7,9 @@ diescription: it's a wonderful world
 field_group:
   title: Hello
   description: Woohoo
+group_repeat:
+- title: Yppp
+  desc: what'sup
 
 ---
 # Hello
