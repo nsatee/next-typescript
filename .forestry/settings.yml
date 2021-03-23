@@ -7,7 +7,6 @@ sections:
 - type: document
   path: ''
   label: hero
-  match: "**/*"
 - type: directory
   path: posts
   label: Posts

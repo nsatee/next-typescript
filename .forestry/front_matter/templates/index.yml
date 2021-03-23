@@ -2,7 +2,7 @@
 label: index
 hide_body: true
 fields:
-- name: hero
+- name: highlights
   type: field_group
   config: {}
   fields:
@@ -16,4 +16,4 @@ fields:
     config:
       required: false
     label: description
-  label: Hero
+  label: Highlights
