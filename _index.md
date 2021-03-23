@@ -3,7 +3,7 @@ page_section:
 - template: hero
   title: ''
   hero:
-    title: ''
-    description: ''
+    title: Hello
+    description: "how are \n\nyou doing?"
 
 ---
