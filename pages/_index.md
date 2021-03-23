@@ -1,0 +1,6 @@
+---
+hero:
+- template: homepage
+  hero: []
+
+---
