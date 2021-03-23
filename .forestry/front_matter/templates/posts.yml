@@ -30,3 +30,19 @@ fields:
     schema:
       format: markdown
   label: Diescription
+- name: field_group
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: description
+    type: text
+    config:
+      required: false
+    label: description
+  label: field group
+  description: field group, dah!
