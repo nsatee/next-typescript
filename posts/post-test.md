@@ -10,6 +10,7 @@ field_group:
 group_repeat:
 - title: Woohooo
   desc: cool stuff here
+  image: "/uploads/screen-shot-2021-03-16-at-9-46-45-am.png"
 - title: Yppp
   desc: what'sup
 
