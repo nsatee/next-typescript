@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: itinerary
+  label: Itinerary
+  create: all
+  match: "**/*"
+  templates:
+  - itinerary
+- type: directory
   path: ''
   label: Homepage
   create: all
