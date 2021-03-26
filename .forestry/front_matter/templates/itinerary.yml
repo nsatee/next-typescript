@@ -129,3 +129,5 @@ fields:
   config:
     required: false
   label: Iframe of map
+pages:
+- itinerary/rotating-beltline-bar-hop.md
