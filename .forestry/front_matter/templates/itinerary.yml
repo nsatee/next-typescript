@@ -1,4 +1,131 @@
 ---
 label: Itinerary
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Itinerary title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Itinerary description
+- name: admin
+  type: field_group
+  config: {}
+  fields:
+  - name: thumbnail
+    type: file
+    config:
+      maxSize: 64
+    label: Thumbnail
+    description: Admin thumbnail
+  - name: name
+    type: text
+    config:
+      required: true
+    label: Name
+    description: Name of event's admin
+  - name: description
+    type: text
+    config:
+      required: true
+    label: Description
+    description: Description of event's admin
+  - name: contact
+    type: field_group_list
+    fields:
+    - name: platform
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - Instagram
+        - Facebook
+        - Twitter
+        - Website
+        - Phone
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Platform
+    - name: display
+      type: text
+      config:
+        required: true
+      label: Display
+    - name: url
+      type: text
+      config:
+        required: true
+      label: URL
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Contact
+  label: Admin
+  description: Admin of itinerary
+- name: share_link
+  type: text
+  config:
+    required: false
+  label: Share link
+  description: Share plan link
+- name: start_date
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Start date
+- name: places
+  type: field_group_list
+  fields:
+  - name: place_thumbnail
+    type: file
+    config:
+      maxSize: 64
+    label: Place thumbnail
+  - name: place_name
+    type: text
+    config:
+      required: false
+    label: Place name
+  - name: place_address
+    type: text
+    config:
+      required: false
+    label: Place address
+  - name: place_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Place description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Places
+- name: iframe_of_map
+  type: text
+  config:
+    required: false
+  label: Iframe of map
