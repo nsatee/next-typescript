@@ -129,5 +129,9 @@ fields:
   config:
     required: false
   label: Iframe of map
+- name: slides
+  type: image_gallery
+  config: {}
+  label: slides
 pages:
 - itinerary/rotating-beltline-bar-hop.md
