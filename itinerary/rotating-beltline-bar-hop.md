@@ -29,5 +29,8 @@ places:
     text and more text.   '
 iframe_of_map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.8462640025523!2d-84.37580798479185!3d33.79046798067789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5043825d515d1%3A0xa0eaf981e881d6b5!2sAtlanta%20Botanical%20Garden!5e0!3m2!1sen!2sus!4v1616785959444!5m2!1sen!2sus"
   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+slides:
+- "/uploads/screen-shot-2021-04-08-at-4-14-44-pm.png"
+- "/uploads/screen-shot-2021-03-16-at-9-46-45-am.png"
 
 ---
