@@ -69,3 +69,15 @@ fields:
     max: 
     labelField: 
   label: Group repeat
+- name: hi
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: hi
